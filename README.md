@@ -11,7 +11,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Clone the proyect inside virtual env folder
-git clone 
+git clone git@github.com:Gabospa/quickbase.git
 
 # Install dependencies. Run the following command
 
