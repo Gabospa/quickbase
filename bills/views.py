@@ -19,10 +19,10 @@ class BillViewSet(viewsets.ModelViewSet):
 
     queryset = Bill.objects.all()
     serializer_class = BillModelSerializer
-    #permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
 class BillProductsViewSet(viewsets.ModelViewSet):
     """ Bill - products view set. """
     queryset = BillProducts.objects.all()
     serializer_class = BillProductsSerializer
-    #permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
