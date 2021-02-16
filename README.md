@@ -1,6 +1,6 @@
 # quickbase
 
-> API REST implemented with Django to manage Customers - Products - Bills system
+> API REST implemented with Django to manage Customers - Products - Bills system. Authentication using JWT
 
 ## Build setup
 
@@ -26,7 +26,11 @@ python manage.py migrate
 
 python manage.py runserver
 
+```
+## API Documentation
+Loot at here for detailed documentation!
 
+https://documenter.getpostman.com/view/13014433/TWDUoxXJ
 
 
 
